@@ -1,0 +1,28 @@
+body {
+	font-family: Open Sans;
+	#about-us, #blog, #portfolio, #contact {
+		p {
+		font-size: 15px;
+		color: black;
+		}
+	}
+	.floatleft {
+		float: left;
+	}
+	.floatright {
+		float: right;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	.col-md-1 {
+		background-image: url("../images/galley_photo.png");
+		height: 50px;
+	}
+	.row {
+		margin: 0;
+	}
+}

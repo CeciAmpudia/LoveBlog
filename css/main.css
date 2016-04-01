@@ -1,0 +1,257 @@
+body {
+  font-family: Open Sans; }
+  body #about-us p, body #blog p, body #portfolio p, body #contact p {
+    font-size: 15px;
+    color: black; }
+  body .floatleft {
+    float: left; }
+  body .floatright {
+    float: right; }
+  body h2 {
+    font-size: 20px; }
+  body a:hover {
+    text-decoration: none; }
+  body .col-md-1 {
+    background-image: url("../images/galley_photo.png");
+    height: 50px; }
+  body .row {
+    margin: 0; }
+
+.header_area {
+  font-weight: 600; }
+  .header_area button {
+    background: #E8663C; }
+  .header_area h1 {
+    font-size: 40px;
+    color: #E8663C; }
+    .header_area h1 span {
+      color: pink; }
+  .header_area li {
+    padding: 10px 15px; }
+    .header_area li a {
+      color: #ccc;
+      font-size: 18px; }
+      .header_area li a:hover {
+        background: transparent !important;
+        color: #E8663C; }
+    .header_area li .active a:focus {
+      color: #E8663C !important; }
+
+footer {
+  color: white; }
+  footer .single_footer {
+    background: #E8663C;
+    height: 280px; }
+  footer a {
+    color: white;
+    font-size: 35px;
+    margin: 0 5px; }
+  footer a:hover {
+    color: pink;
+    text-decoration: none; }
+  footer h2 {
+    font-weight: 500; }
+  footer li {
+    display: inline; }
+  footer .col-md-1 {
+    background-image: url("../images/galley_photo.png");
+    height: 280px; }
+
+.home h2 {
+  font-weight: bolder; }
+.home h3 {
+  color: #999999 !important;
+  font-size: 20px !important; }
+.home h4 {
+  color: #E8663C !important;
+  font-size: 15px !important; }
+.home .header_bottom_area img {
+  width: 100%; }
+
+.service_area span {
+  font-size: 50px;
+  float: left;
+  margin-right: 20px;
+  color: #E8663C; }
+.service_area h2 {
+  display: inline;
+  color: #E8663C;
+  font-weight: 600; }
+.service_area p {
+  color: black;
+  padding: 15px 0; }
+.service_area .single_service {
+  margin: 30px 0; }
+.service_area .btn {
+  background: #E8663C;
+  color: white; }
+.service_area .btn:hover {
+  color: pink; }
+
+.from_blog span {
+  background: white;
+  color: #E8663C;
+  padding: 10px; }
+.from_blog h2 {
+  background-image: url("../images/post_border_bg.png"); }
+.from_blog .single_blog {
+  margin: 30px 0; }
+.from_blog img {
+  width: 100%; }
+.from_blog .blog_post {
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 0 25px; }
+
+.from_works span {
+  background: white;
+  color: #E8663C;
+  padding: 10px; }
+.from_works h2 {
+  background-image: url("../images/post_border_bg.png"); }
+.from_works .single_work {
+  margin: 30px 0; }
+.from_works img {
+  width: 100%; }
+.from_works .blog_post {
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 0 25px; }
+
+.title, #blog h2, #portfolio h2, #contact h2 {
+  background: #E8663C;
+  margin: initial;
+  padding: 13px;
+  color: white; }
+
+#about-us .col-md-1 {
+  height: 50px; }
+#about-us .title, #about-us #blog h2, #blog #about-us h2, #about-us #portfolio h2, #portfolio #about-us h2, #about-us #contact h2, #contact #about-us h2 {
+  background: #E8663C;
+  margin: initial;
+  padding: 13px; }
+#about-us .autor {
+  margin: 20px 0; }
+  #about-us .autor img {
+    border: 1px solid gray;
+    padding: 5px; }
+  #about-us .autor .f-pink {
+    color: #E8663C;
+    border-left: 10px solid #E8663C;
+    padding: 0 10px;
+    margin: 35px; }
+
+/*.......... ABOUT RIGHT ..........*/
+.abt-r ul, #blog .abt ul, #blog #about-us .autor ul, #about-us #blog .autor ul, #contact .abt ul, #contact #about-us .autor ul, #about-us #contact .autor ul {
+  list-style-type: none;
+  padding-left: 0; }
+  .abt-r ul li a, #blog .abt ul li a, #blog #about-us .autor ul li a, #about-us #blog .autor ul li a, #contact .abt ul li a, #contact #about-us .autor ul li a, #about-us #contact .autor ul li a {
+    color: black; }
+.abt-r .about span, #blog .abt .about span, #blog #about-us .autor .about span, #about-us #blog .autor .about span, #contact .abt .about span, #contact #about-us .autor .about span, #about-us #contact .autor .about span, .abt-r .categories span, #blog .abt .categories span, #blog #about-us .autor .categories span, #about-us #blog .autor .categories span, #contact .abt .categories span, #contact #about-us .autor .categories span, #about-us #contact .autor .categories span, .abt-r .gallery span, #blog .abt .gallery span, #blog #about-us .autor .gallery span, #about-us #blog .autor .gallery span, #contact .abt .gallery span, #contact #about-us .autor .gallery span, #about-us #contact .autor .gallery span {
+  background: white;
+  color: #E8663C;
+  padding: 10px; }
+.abt-r .about h3, #blog .abt .about h3, #blog #about-us .autor .about h3, #about-us #blog .autor .about h3, #contact .abt .about h3, #contact #about-us .autor .about h3, #about-us #contact .autor .about h3, .abt-r .categories h3, #blog .abt .categories h3, #blog #about-us .autor .categories h3, #about-us #blog .autor .categories h3, #contact .abt .categories h3, #contact #about-us .autor .categories h3, #about-us #contact .autor .categories h3, .abt-r .gallery h3, #blog .abt .gallery h3, #blog #about-us .autor .gallery h3, #about-us #blog .autor .gallery h3, #contact .abt .gallery h3, #contact #about-us .autor .gallery h3, #about-us #contact .autor .gallery h3 {
+  background-image: url("../images/post_border_bg.png"); }
+.abt-r .col-md-3, #blog .abt .col-md-3, #blog #about-us .autor .col-md-3, #about-us #blog .autor .col-md-3, #contact .abt .col-md-3, #contact #about-us .autor .col-md-3, #about-us #contact .autor .col-md-3 {
+  padding: 0 5px; }
+.abt-r .thumbnail, #blog .abt .thumbnail, #blog #about-us .autor .thumbnail, #about-us #blog .autor .thumbnail, #contact .abt .thumbnail, #contact #about-us .autor .thumbnail, #about-us #contact .autor .thumbnail {
+  background: pink;
+  height: 60px;
+  margin-bottom: 10px; }
+
+#blog .sect {
+  background: #E8663C;
+  margin: initial;
+  padding: 13px;
+  color: white; }
+#blog h4 {
+  color: #E8663C; }
+#blog a {
+  color: #ccc; }
+#blog .top-word h5 {
+  color: #ccc; }
+#blog .container-fluid .cont {
+  background-image: none; }
+#blog .container-fluid .icon, #blog .container-fluid .icon2, #blog .container-fluid .icon3, #blog .container-fluid .icon4, #blog .container-fluid .icon5 {
+  background-image: url("../images/icon1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px; }
+#blog .container-fluid .icon2 {
+  background-image: url("../images/icon2.png"); }
+#blog .container-fluid .icon3 {
+  background-image: url("../images/icon3.png"); }
+#blog .container-fluid .icon4 {
+  background-image: url("../images/icon4.png"); }
+#blog .container-fluid .icon5 {
+  background-image: url("../images/icon5.png"); }
+#blog .post img {
+  width: 100%; }
+#blog .f-bg {
+  background: #EEEEEE;
+  padding: 25px; }
+  #blog .f-bg span {
+    color: #E8663C;
+    font-size: 30px; }
+#blog .web p {
+  padding: 20px; }
+#blog .pagination li a {
+  background: #E8663C;
+  margin: 0 5px;
+  color: white; }
+#blog .line {
+  background-image: url("../images/heading-bg.png"); }
+
+#portfolio h3 {
+  color: black; }
+#portfolio .category-menu {
+  margin: 50px 0; }
+  #portfolio .category-menu h3, #portfolio .category-menu ul {
+    display: inline-block;
+    vertical-align: middle; }
+  #portfolio .category-menu li {
+    font-weight: 600; }
+  #portfolio .category-menu a {
+    color: #ccc; }
+    #portfolio .category-menu a:hover {
+      background: #E8663C;
+      color: white; }
+#portfolio .thumbnail {
+  border: none; }
+  #portfolio .thumbnail img, #portfolio .thumbnail .caption {
+    border: 1px solid #dddddd;
+    padding: 3px; }
+  #portfolio .thumbnail img {
+    width: 100%;
+    margin-bottom: 5px; }
+  #portfolio .thumbnail h3 {
+    color: #ccc;
+    margin-top: 0; }
+  #portfolio .thumbnail p {
+    color: #E8663C; }
+#portfolio .thumbnail:hover {
+  border: 2px solid #E8663C; }
+
+#contact .cont .col-md-1 {
+  background: none; }
+#contact .map, #contact .inf {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+#contact .tel {
+  line-height: 10px; }
+#contact .btn {
+  background: #E8663C;
+  color: white;
+  font-weight: bolder; }
+#contact .form-control {
+  border: 1px solid #E8663C;
+  color: #E8663C; }
+#contact input:focus {
+  border-color: #E8663C; }
+#contact .placeholder {
+  color: #E8663C; }
+#contact .email, #contact .name {
+  width: 60%; }
+
+/*# sourceMappingURL=main.css.map */

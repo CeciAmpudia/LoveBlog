@@ -1,0 +1,26 @@
+footer {
+	color: white ;
+	.single_footer {
+		background: $color;
+		height: 280px;
+	}
+	a {
+		color: white;
+		font-size: 35px;
+		margin: 0 5px;
+	}
+	a:hover {
+		color: $color-sec;
+		text-decoration: none;
+	}
+	h2 {
+		font-weight: 500;
+	}
+	li {
+		display: inline;
+	}
+	.col-md-1 {
+		background-image: url("../images/galley_photo.png");
+		height: 280px;
+	}
+}

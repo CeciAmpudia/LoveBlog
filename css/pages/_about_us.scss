@@ -1,0 +1,60 @@
+.title {
+		background: $color;
+		margin: initial;
+		padding: 13px;
+		color: white;
+	}
+
+#about-us {
+	.col-md-1 {
+		height: 50px;
+	}
+	.title {
+		background: $color;
+		margin: initial;
+		padding: 13px;
+	}
+	.autor {
+		margin: 20px 0;
+		@extend .abt;
+		img {
+			border: 1px solid gray;
+			padding: 5px;
+		}
+		.f-pink {
+			color: $color;
+			border-left: 10px solid $color;
+			padding: 0 10px;
+			margin: 35px;
+		}
+	}
+	
+}
+/*.......... ABOUT RIGHT ..........*/
+.abt-r {
+		ul {
+		list-style-type: none;
+		padding-left: 0;
+			li a {
+				color: black;
+			}
+		}
+		.about, .categories, .gallery {
+			span {
+			background: white;
+			color: $color;
+			padding: 10px;
+			}
+			h3 {
+				background-image: url("../images/post_border_bg.png");
+			}
+		}
+		.col-md-3 {
+			padding: 0 5px;
+		}
+		.thumbnail {
+			background: $color-sec;
+			height: 60px;
+			margin-bottom: 10px;
+		}
+	}

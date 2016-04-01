@@ -1,0 +1,46 @@
+#portfolio {
+	h2 {
+		@extend .title;
+	}
+	h3 {
+		color: black;
+	}
+	.category-menu {
+		margin: 50px 0;
+		h3, ul {
+			display: inline-block;
+			vertical-align: middle;
+		}
+		li {
+			font-weight: 600;
+		}
+		a {
+			color: $gray;
+			&:hover{
+				background: $color;
+				color: white;
+			}
+		}	
+	}
+	.thumbnail {
+		border: none;
+		img, .caption {
+			border: 1px solid #dddddd;
+			padding: 3px;
+		}
+		img {
+			width: 100%;
+			margin-bottom: 5px;
+		}
+		h3 {
+			color: $gray;
+			margin-top: 0;
+		}
+		p {
+			color: $color;
+		}
+	}
+	.thumbnail:hover {
+		border: 2px solid $color;
+	}
+}

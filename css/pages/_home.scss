@@ -1,0 +1,90 @@
+.home {
+	h2 {
+		font-weight: bolder;
+	}
+	h3 {
+		color: #999999 !important;
+		font-size: 20px !important;
+	}
+	h4 {
+		color: $color !important;
+		font-size: 15px !important;
+	}
+	.header_bottom_area {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+.service_area {
+	span {
+		font-size: 50px;
+		float: left;
+		margin-right: 20px;
+		color: $color;
+	}
+	h2 {
+		display: inline;
+		color: $color;
+		font-weight: 600;
+	}
+	p {
+		color: black;
+		padding: 15px 0;
+	}
+	.single_service {
+		margin: 30px 0;
+	}
+	.btn {
+		background: $color;
+		color: white;
+	}
+	.btn:hover {
+		color: $color-sec;
+	}
+}
+
+.from_blog {
+	span {
+		background: white;
+		color: $color;
+		padding: 10px;
+	}
+	h2 {
+		background-image: url("../images/post_border_bg.png");
+	}
+	.single_blog {
+		margin: 30px 0;
+	}
+	img {
+		width: 100%;
+	}
+	.blog_post {
+		border: 1px solid #ccc;
+		border-top: none;
+		padding: 0 25px;
+	}
+}
+
+.from_works {
+	span {
+		background: white;
+		color: $color;
+		padding: 10px;
+	}
+	h2 {
+		background-image: url("../images/post_border_bg.png");
+	}
+	.single_work {
+	margin: 30px 0;
+	}
+	img {
+		width: 100%;
+	}
+	.blog_post {
+		border: 1px solid #ccc;
+		border-top: none;
+		padding: 0 25px;
+	}
+}

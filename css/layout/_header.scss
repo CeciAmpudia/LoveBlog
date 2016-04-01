@@ -1,0 +1,29 @@
+.header_area {
+	font-weight: 600;
+	button {
+		background: $color;
+	}
+	h1 {
+		font-size: 40px;
+		color: $color;
+		span {
+			color:$color-sec;
+		}
+	}
+	li {
+		padding: 10px 15px;
+		a {
+			color: $gray;
+			font-size: 18px;
+			&:hover {
+				background: transparent !important;
+				color: $color;
+			}
+		}
+		.active {
+			a:focus {
+				color: $color !important;
+			}
+		}
+	}
+}

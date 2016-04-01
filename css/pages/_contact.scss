@@ -1,0 +1,38 @@
+#contact {
+	h2 {
+		@extend .title;
+	}
+	.cont {
+		.col-md-1 {
+			background: none;
+		}
+	}
+	.map, .inf {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.tel {
+		line-height: 10px;
+	}
+	.btn {
+		background: $color;
+		color: white;
+		font-weight: bolder;
+	}
+	.form-control {
+		border: 1px solid $color;
+		color: $color;
+	}
+	input:focus {
+		border-color: $color;
+	}
+	.placeholder {
+		color: $color;
+	}
+	.email, .name {
+		width: 60%;
+	}
+	.abt {
+		@extend .abt-r;
+	}
+}
