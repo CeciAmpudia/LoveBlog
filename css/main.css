@@ -36,6 +36,8 @@ body {
         color: #E8663C; }
     .header_area li .active a:focus {
       color: #E8663C !important; }
+  .header_area .active a:focus {
+    color: #E8663C; }
 
 footer {
   color: white; }
@@ -173,19 +175,6 @@ footer {
   color: #ccc; }
 #blog .container-fluid .cont {
   background-image: none; }
-#blog .container-fluid .icon, #blog .container-fluid .icon2, #blog .container-fluid .icon3, #blog .container-fluid .icon4, #blog .container-fluid .icon5 {
-  background-image: url("../images/icon1.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100px; }
-#blog .container-fluid .icon2 {
-  background-image: url("../images/icon2.png"); }
-#blog .container-fluid .icon3 {
-  background-image: url("../images/icon3.png"); }
-#blog .container-fluid .icon4 {
-  background-image: url("../images/icon4.png"); }
-#blog .container-fluid .icon5 {
-  background-image: url("../images/icon5.png"); }
 #blog .post img {
   width: 100%; }
 #blog .f-bg {
@@ -253,5 +242,31 @@ footer {
   color: #E8663C; }
 #contact .email, #contact .name {
   width: 60%; }
+
+.posts .icon {
+  background-image: url("../images/icon1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px; }
+.posts .icon2 {
+  background-image: url("../images/icon2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px; }
+.posts .icon3 {
+  background-image: url("../images/icon3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px; }
+.posts .icon4 {
+  background-image: url("../images/icon4.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px; }
+.posts .icon5 {
+  background-image: url("../images/icon5.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100px; }
 
 /*# sourceMappingURL=main.css.map */

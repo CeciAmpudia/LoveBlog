@@ -1,0 +1,24 @@
+@mixin bg-icon($bg-icon) {
+	background-image: url($bg-icon);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100px;
+}
+
+.posts {
+	.icon {
+		@include bg-icon("../images/icon1.png");
+	}
+	.icon2 {
+		@include bg-icon("../images/icon2.png");
+	}
+	.icon3 {
+		@include bg-icon("../images/icon3.png");
+	}
+	.icon4 {
+		@include bg-icon("../images/icon4.png");
+	}
+	.icon5 {
+		@include bg-icon("../images/icon5.png");
+	}
+}

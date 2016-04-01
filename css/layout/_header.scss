@@ -26,4 +26,9 @@
 			}
 		}
 	}
+	.active {
+		a:focus {
+			color: $color;
+		}
+	}
 }
